@@ -7,9 +7,9 @@ const nextConfig = {
 };
 
 module.exports = withImages({
-  env: {
-    OPENAI_API_KEY: "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",
-  },
+  //env: {
+  //  OPENAI_API_KEY: "",
+  //},
   webpack: (config, { isServer }) => {
     config.externals["node:fs"] = "commonjs node:fs";
 
